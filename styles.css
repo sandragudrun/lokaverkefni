@@ -1,0 +1,77 @@
+.page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.side-container {
+    width: 20%;
+    min-width: 200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+}
+.product {
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;text-align: center;
+}
+h3 {
+    font-size: 14px;
+    text-align: center;
+}
+
+img {
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 250px;
+}
+
+.kettir {
+    margin: 20px;
+    background-color: antiquewhite;
+}
+#inputdiv {
+   margin-top: 50px;
+}
+input {
+    width: 100%;
+    margin: 5px 0;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+.leitin {
+    width: 100%;
+    padding-top: 100px;
+}
+
+#quiz {
+    width: 40%;
+    margin: 0 auto;
+}
+.spurningar {
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+.quiz-input {
+    width: 50%;
+}

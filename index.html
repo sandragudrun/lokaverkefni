@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Ka, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kattamál</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kattamál</h1>
+        <h2>Stefnumótasíða fyrir ketti</h2>
+    </header>
+    <div class="page-wrapper">
+        <div id="container"></div>
+        <div class="side-container">
+            <div>
+                <h2>Leita að ketti</h2>
+                <label for="gender-search">Kyn</label><br/>
+                <select name="gender-search" id="gender-search">
+                    <option value="all" selected="selected">Skiptir ekki máli</option>
+                </select><br/>
+                <label for="type-search">Tegund</label><br/>
+                <select name="type-search" id="type-search">
+                    <option value="all" selected="selected">Skiptir ekki máli</option>
+                </select><br/>
+                <label for="age-search">Aldur</label><br/>
+                <select name="age-search" id="age-search">
+                        <option value="all" selected="selected">Skiptir ekki máli</option>
+                    </select><br/>
+                <label for="search">Leita eftir nafni</label><br/>
+                <input type="text" name="search" id="search">
+                <button id="search-button">Leita</button>
+            </div>
+            <div id="inputdiv">
+                <h2>Skráðu köttinn þinn!</h2>
+                <label for="catname">Nafn kattar</label><br/>
+                <input id="catname" type="text" /><br/>
+                <label for="photo">Settu inn link á mynd af kettinum þínum</label><br/>
+                <input id="photo" type="text" /><br/>
+                <label for="age">Aldur kattar</label><br/>
+                <input id="age" type="text" /><br/>
+                <label for="gender">Hver kyns er kötturinn þinn?</label><br/>
+                <input id="gender" type="text" /><br/>
+                <label for="type">Hverrar tegundar er kötturinn þinn?</label><br/>
+                <input id="type" type="text" /><br/>
+                <button id="sign-up-button">Skrá kött</button>
+            </div>
+            <form action="quiz.html">
+                <input type="submit" value="Hvaða köttur passar þér best?" />
+            </form>
+        </div>
+    </div>
+    <script src="shared.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
